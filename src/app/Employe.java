@@ -12,8 +12,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author JOL4G
  */
 public class Employe {
-    private static final AtomicInteger count = new AtomicInteger(0); 
-    private final int jobID;
+    public static final AtomicInteger count = new AtomicInteger(0); 
+    final int jobID;
     String nom;
     String prenom;   
     int  age;

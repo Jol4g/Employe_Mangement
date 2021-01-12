@@ -61,7 +61,7 @@ public class Jardinier extends Employe{
 
     @Override
     public String toString() {
-        return "Jardinier{" + "id=" + super.id+ " nom=" + nom + ", prenom=" + prenom + ", age=" + age +" "+ "salaire=" + salaire  + '}';
+        return "Jardinier{" + "id=" + jobID+ " nom=" + nom + ", prenom=" + prenom + ", age=" + age +" "+ "salaire=" + salaire  + '}';
     }
     
     

@@ -60,7 +60,7 @@ public class Developer extends Employe{
   
     @Override
     public String toString() {
-        return "Developer{" + "nom=" + nom + ", prenom=" + prenom + ", age=" + age +" "+ "salaire=" + salaire + '}';
+        return "Developer{" +"id= "+jobID + "nom=" + nom + ", prenom=" + prenom + ", age=" + age +" "+ "salaire=" + salaire + '}';
     }
     
     

@@ -25,6 +25,23 @@ public class FonctionsActives {
     }
     
     
+    static public void AfficherDeveloper() {
+            for (Employe employe : listeEmploye) {
+                if(employe instanceof Developer){
+                    System.out.println(employe);   
+                }
+            }
+    }
+    
+        static public void AfficherJardinier() {
+            for (Employe employe : listeEmploye) {
+                if(employe instanceof Jardinier){
+                    System.out.println(employe);   
+                }
+            }
+    }
+    
+    
     static public void AddEmploye(){
 //        String nom = scanner.nextLine();
 //        String prenom = scanner.nextLine();

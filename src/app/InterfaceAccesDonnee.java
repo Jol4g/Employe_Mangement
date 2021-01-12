@@ -43,8 +43,29 @@ public class InterfaceAccesDonnee {
     }
     
     static public void Afficher(){
-        FonctionsActives.Afficher();
-        System.out.println("app.InterfaceAccesDonnee.Afficher()");
+        
+        System.out.println("     1-   Afficher les employees");
+        System.out.println("     2-   Afficher les jardinier");
+        System.out.println("     3-   Afficher les developer");
+        System.out.println("     0-   Exit");
+        String type = scanner.nextLine();
+        switch(type){
+            case "1" :
+                System.out.println("Ajouter un employe");
+                FonctionsActives.Afficher();
+                break;
+            case "2" :
+                System.out.println("Ajouter un jardinier");
+                 FonctionsActives.AfficherJardinier();
+                break;
+            case "3" :
+                System.out.println("Ajouter un developer");
+                FonctionsActives.AfficherDeveloper();
+                break;
+            default:
+                System.out.println("choix invalide");
+                break;
+        }
     }
     
 }
